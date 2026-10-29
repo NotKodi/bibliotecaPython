@@ -1,0 +1,101 @@
+codigo|titulo|autor|anio|categoria|codigo_socio
+L001|Don Quijote de la Mancha|Miguel de Cervantes|1605|Clásico|NONE
+L002|Cien años de soledad|Gabriel García Márquez|1967|Realismo Mágico|NONE
+L003|El principito|Antoine de Saint-Exupéry|1943|Fábula|S001
+L004|1984|George Orwell|1949|Distopía|NONE
+L005|Orgullo y prejuicio|Jane Austen|1813|Novela Romántica|NONE
+L006|El señor de los anillos|J.R.R. Tolkien|1954|Fantasía|NONE
+L007|Fahrenheit 451|Ray Bradbury|1953|Distopía|NONE
+L008|Crónica de una muerte anunciada|Gabriel García Márquez|1981|Novela|NONE
+L009|La sombra del viento|Carlos Ruiz Zafón|2001|Misterio|NONE
+L010|Rayuela|Julio Cortázar|1963|Ficción|NONE
+L011|Un mundo feliz|Aldous Huxley|1932|Distopía|NONE
+L012|El alquimista|Paulo Coelho|1988|Filosófica|S002
+L013|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
+L014|Pedro Páramo|Juan Rulfo|1955|Realismo Mágico|NONE
+L015|La casa de los espíritus|Isabel Allende|1982|Realismo Mágico|NONE
+L016|Metamorfosis|Franz Kafka|1915|Ficción|NONE
+L017|Crimen y castigo|Fyodor Dostoevsky|1866|Novela Psicológica|NONE
+L018|Los miserables|Victor Hugo|1862|Novela Histórica|NONE
+L019|El gran Gatsby|F. Scott Fitzgerald|1925|Ficción|NONE
+L020|Matar a un ruiseñor|Harper Lee|1960|Ficción|NONE
+L021|El nombre de la rosa|Umberto Eco|1980|Misterio Histórico|NONE
+L022|Ensayo sobre la ceguera|José Saramago|1995|Ficción|NONE
+L023|El retrato de Dorian Gray|Oscar Wilde|1890|Ficción Filosófica|NONE
+L024|La odisea|Homero|-800|Épica|NONE
+L025|La ilíada|Homero|-750|Épica|S004
+L026|La divina comedia|Dante Alighieri|1320|Poesía Épica|NONE
+L027|Hamlet|William Shakespeare|1601|Drama|NONE
+L028|Romeo y Julieta|William Shakespeare|1597|Drama|NONE
+L029|Cumbres borrascosas|Emily Brontë|1847|Novela|NONE
+L030|Jane Eyre|Charlotte Brontë|1847|Novela|NONE
+L031|Moby Dick|Herman Melville|1851|Aventura|NONE
+L032|Las aventuras de Huckleberry Finn|Mark Twain|1884|Aventura|NONE
+L033|El guardián entre el centeno|J.D. Salinger|1951|Ficción|NONE
+L034|El viejo y el mar|Ernest Hemingway|1952|Novela Short|NONE
+L035|Por quién doblan las campanas|Ernest Hemingway|1940|Guerra|NONE
+L036|En el camino|Jack Kerouac|1957|Ficción|NONE
+L037|Drácula|Bram Stoker|1897|Terror|NONE
+L038|Frankenstein|Mary Shelley|1818|Terror / Ciencia Ficción|NONE
+L039|La metamorfosis|Franz Kafka|1915|Ficción|NONE
+L040|El proceso|Franz Kafka|1925|Ficción|NONE
+L041|Guerra y paz|Liev Tólstoi|1869|Novela Histórica|S006
+L042|Anna Karénina|Liev Tólstoi|1878|Novela Realista|NONE
+L043|Los hermanos Karamazov|Fyodor Dostoevsky|1880|Novela Psicológica|NONE
+L044|Madame Bovary|Gustave Flaubert|1857|Novela Realista|NONE
+L045|El conde de Montecristo|Alexandre Dumas|1844|Aventura|NONE
+L046|Los tres mosqueteros|Alexandre Dumas|1844|Aventura|NONE
+L047|Veinte mil leguas de viaje submarino|Jules Verne|1870|Ciencia Ficción|NONE
+L048|La isla del tesoro|Robert Louis Stevenson|1883|Aventura|NONE
+L049|El extraño caso del Dr. Jekyll y Mr. Hyde|Robert Louis Stevenson|1886|Misterio|NONE
+L050|Las aventuras de Sherlock Holmes|Arthur Conan Doyle|1892|Misterio|NONE
+L051|El hobbit|J.R.R. Tolkien|1937|Fantasía|NONE
+L052|Harry Potter y la piedra filosofal|J.K. Rowling|1997|Fantasía|NONE
+L053|Juego de tronos|George R.R. Martin|1996|Fantasía Epic|NONE
+L054|Dune|Frank Herbert|1965|Ciencia Ficción|NONE
+L055|Fundación|Isaac Asimov|1951|Ciencia Ficción|S008
+L056|Yo, robot|Isaac Asimov|1950|Ciencia Ficción|NONE
+L057|Neuromante|William Gibson|1984|Cyberpunk|NONE
+L058|Crónicas marcianas|Ray Bradbury|1950|Ciencia Ficción|NONE
+L059|La máquina del tiempo|H.G. Wells|1895|Ciencia Ficción|NONE
+L060|La guerra de los mundos|H.G. Wells|1898|Ciencia Ficción|NONE
+L061|El juego de Ender|Orson Scott Card|1985|Ciencia Ficción|NONE
+L062|Sapiens|Yuval Noah Harari|2011|Divulgación Histórica|NONE
+L063|El hombre en busca de sentido|Viktor Frankl|1946|Psicología|NONE
+L064|El arte de la guerra|Sun Tzu|-500|Filosofía / Estrategia|NONE
+L065|Así habló Zaratustra|Friedrich Nietzsche|1883|Filosofía|NONE
+L066|El capital|Karl Marx|1867|Economía / Filosofía|NONE
+L067|La república|Platón|-375|Filosofía|S010
+L068|Meditaciones|Marco Aurelio|180|Filosofía|NONE
+L069|El laberinto de la soledad|Octavio Paz|1950|Ensayo|NONE
+L070|Aura|Carlos Fuentes|1962|Ficción|NONE
+L071|La ciudad y los perros|Mario Vargas Llosa|1963|Novela|NONE
+L072|La fiesta del Chivo|Mario Vargas Llosa|2000|Novela Histórica|NONE
+L073|Los detectives salvajes|Roberto Bolaño|1998|Novela|NONE
+L074|2666|Roberto Bolaño|2004|Novela|NONE
+L075|Como agua para chocolate|Laura Esquivel|1989|Realismo Mágico|NONE
+L076|La tregua|Mario Benedetti|1960|Novela|NONE
+L077|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
+L078|El Aleph|Jorge Luis Borges|1949|Cuentos|S012
+L079|Niebla|Miguel de Unamuno|1914|Novela|NONE
+L080|Campos de Castilla|Antonio Machado|1912|Poesía|NONE
+L081|La colmena|Camilo José Cela|1951|Novela|NONE
+L082|La familia de Pascual Duarte|Camilo José Cela|1942|Novela|NONE
+L083|Nada|Carmen Laforet|1945|Novela|NONE
+L084|Los santos inocentes|Miguel Delibes|1981|Novela|NONE
+L085|El camino|Miguel Delibes|1950|Novela|NONE
+L086|Patria|Fernando Aramburu|2016|Novela|NONE
+L087|Siddhartha|Hermann Hesse|1922|Filosófica|NONE
+L088|El lobo estepario|Hermann Hesse|1927|Novela|NONE
+L089|El extranjero|Albert Camus|1942|Filosófica|S014
+L090|La peste|Albert Camus|1947|Novela|NONE
+L091|Ensayo sobre la lucidez|José Saramago|2004|Ficción|NONE
+L092|El túnel|Ernesto Sabato|1948|Novela Psicológica|NONE
+L093|Sobre héroes y tumbas|Ernesto Sabato|1961|Novela|NONE
+L094|Doña Bárbara|Rómulo Gallegos|1929|Novela|S016
+L095|María|Jorge Isaacs|1867|Romántica|NONE
+L096|El perfume|Patrick Süskind|1985|Misterio / Histórica|NONE
+L097|Cometas en el cielo|Khaled Hosseini|2003|Novela|NONE
+L098|La ladrona de libros|Markus Zusak|2005|Novela Histórica|NONE
+L099|La chica del tren|Paula Hawkins|2015|Thriller|NONE
+L100|El código Da Vinci|Dan Brown|2003|Thriller / Misterio|NONE

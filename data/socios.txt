@@ -1,0 +1,21 @@
+codigo_socio|nombre|email|codigo_libro_prestado
+S001|María García|maria.garcia@example.com|L003
+S002|Juan Rodríguez|juan.rodriguez@example.com|L012
+S003|Carmen Martínez|carmen.martinez@example.com|NONE
+S004|Alejandro López|alejandro.lopez@example.com|L025
+S005|Laura Sánchez|laura.sanchez@example.com|NONE
+S006|Carlos Pérez|carlos.perez@example.com|L041
+S007|Ana Gómez|ana.gomez@example.com|NONE
+S008|David Fernández|david.fernandez@example.com|L055
+S009|Isabel Díaz|isabel.diaz@example.com|NONE
+S010|Javier Moreno|javier.moreno@example.com|L067
+S011|Marta Álvarez|marta.alvarez@example.com|NONE
+S012|Daniel Romero|daniel.romero@example.com|L078
+S013|Lucía Alonso|lucia.alonso@example.com|NONE
+S014|Pablo Gutiérrez|pablo.gutierrez@example.com|L089
+S015|Sofía Torres|sofia.torres@example.com|NONE
+S016|Hugo Navarro|hugo.navarro@example.com|L094
+S017|Elena Domínguez|elena.dominguez@example.com|NONE
+S018|Álvaro Vázquez|alvaro.vazquez@example.com|NONE
+S019|Paula Ramos|paula.ramos@example.com|NONE
+S020|Diego Gil|diego.gil@example.com|NONE
