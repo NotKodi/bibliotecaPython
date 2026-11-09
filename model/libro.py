@@ -4,7 +4,7 @@ class Libro:
         self.titulo = titulo
         self.autor = autor
         self.anio = anio
-        self-categoria=categoria
+        self.categoria=categoria
         self.codigo_socio = codigo_socio
 
     def __str__(self):

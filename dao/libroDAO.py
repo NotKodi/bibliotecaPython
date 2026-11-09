@@ -1,6 +1,6 @@
 from model.libro import Libro
 from model.socio import Socio
-from .file_manager import FileManager
+from dao.file_manager import FileManager
 
 
 class LibroDAO(FileManager):
@@ -37,6 +37,11 @@ class LibroDAO(FileManager):
                 file.close()
 
         return libros
+    
+    def leer_disponibles(self) -> list[Libro]:
+        todos = self.leer_todos()
+        return [libro for libro in todos if libro.codigo_socio is None]
+                        
 
     def crear(self, libro: Libro) -> bool:
         """Añade un nuevo libro al final del fichero."""
@@ -46,13 +51,33 @@ class LibroDAO(FileManager):
                 # Si codigo_socio es None, guardamos una cadena vacía
                 socio_str = libro.codigo_socio if libro.codigo_socio is not None else ""
                 
-                # Formato delimitado por '|'
                 linea = f"{libro.codigo}|{libro.titulo}|{libro.autor}|{libro.anio}|{libro.categoria}|{socio_str}\n"
                 file.write(linea)
                 print(f"Libro '{libro.titulo}' guardado correctamente.")
                 return True
             except Exception as e:
                 print(f"Error al escribir el libro: {e}")
+                return False
+            finally:
+                file.close()
+        return False
+    
+    def actualizar_todos(self, libros: list[Libro]) -> bool:
+        """Reescribe el fichero completo con la lista actualizada de libros."""
+        file = self._abrir_fichero("w")
+        if file:
+            try:
+                file.write("codigo|titulo|autor|anio|categoria|codigo_socio\n")
+                for libro in libros:
+                    socio_str = (
+                        libro.codigo_socio if libro.codigo_socio is not None else ""
+                    )
+                    file.write(
+                        f"{libro.codigo}|{libro.titulo}|{libro.autor}|{libro.anio}|{libro.categoria}|{socio_str}\n"
+                    )
+                return True
+            except Exception as e:
+                print(f"Error al actualizar los libros: {e}")
                 return False
             finally:
                 file.close()

@@ -7,7 +7,7 @@ class SocioDAO(FileManager):
     def __init__(self):
         super().__init__("socios.txt")
 
-    def read_all(self) -> list[Socio]:
+    def leer_todos(self) -> list[Socio]:
         """Lee todos los socios del fichero."""
         socios = []
         file = self._abrir_fichero("r")
@@ -44,7 +44,6 @@ class SocioDAO(FileManager):
                 # Si codigo_libro_prestado es None, guardamos una cadena vacía
                 libro_str = socio.codigo_libro_prestado if socio.codigo_libro_prestado is not None else ""
                 
-                # Formato delimitado por '|'
                 linea = f"{socio.codigo_socio}|{socio.nombre}|{socio.email}|{libro_str}\n"
                 file.write(linea)
                 print(f"Socio '{socio.nombre}' guardado correctamente.")
