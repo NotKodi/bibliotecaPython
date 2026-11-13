@@ -1,8 +1,8 @@
-from errores.error_formato import DataFormatError
-from errores.error_permisos import FileAccessError
-from errores.error_no_encontrado import FileNotFoundAppError
 from dao.libroDAO import LibroDAO
 from dao.socioDAO import SocioDAO
+from errores.error_formato import DataFormatError
+from errores.error_no_encontrado import FileNotFoundAppError
+from errores.error_permisos import FileAccessError
 from model.libro import Libro
 from model.socio import Socio
 
@@ -32,7 +32,7 @@ class Main:
             try:
                 self.opcion = int(input("Seleccione una de las opciones (1-8): "))
             except ValueError:
-                print("RROR: Valor no válido, intente de nuevo")
+                print("ERROR: Valor no válido, intente de nuevo.")
                 continue
 
             try:
@@ -61,23 +61,21 @@ class Main:
             except Exception as e:
                 print(f"Error inesperado: {e}")
 
-
     def _opcion_1_mostrar_todos_libros(self):
         libros = self.libro_dao.leer_todos()
         if not libros:
             print("No hay libros registrados.")
             return
-        print("==TODOS LOS LIBROS==")
+        print("== TODOS LOS LIBROS ==")
         for libro in libros:
             print(libro)
 
     def _opcion_2_mostrar_libros_disponibles(self):
-        # Usamos tu método directo del DAO
         libros = self.libro_dao.leer_disponibles()
         if not libros:
             print("No hay libros disponibles actualmente.")
             return
-        print("==LIBROS DISPONIBLES==")
+        print("== LIBROS DISPONIBLES ==")
         for libro in libros:
             print(libro)
 
@@ -119,15 +117,20 @@ class Main:
         if libro.codigo_socio is not None:
             print(f"El libro ya está prestado al socio {libro.codigo_socio}.")
             return
+        # Validación que frena el proceso si el socio ya tiene un libro
+        if socio.codigo_libro_prestado is not None:
+            print(f"El socio ya tiene prestado el libro {socio.codigo_libro_prestado}.")
+            return
 
-        # Actualizar relaciones en memoria
+        # 1. Actualizar libro
         libro.codigo_socio = socio.codigo_socio
-        socio.codigo_libro_prestado = libro.codigo
-
-        # Persistir cambios
         self.libro_dao.actualizar_todos(libros)
-        self.socio_dao.actualizar_todos(socios)
+
+        # 2. Actualizar socio 
+        self.socio_dao.actualizar_prestamo(socio.codigo_socio, libro.codigo)
+
         print(f"Libro '{libro.titulo}' prestado a '{socio.nombre}'.")
+
 
     def _opcion_5_devolver_libro(self):
         try:
@@ -137,30 +140,22 @@ class Main:
             return
 
         libros = self.libro_dao.leer_todos()
-        socios = self.socio_dao.leer_todos()
-
         libro = next((l for l in libros if l.codigo == cod_l), None)
 
         if not libro or libro.codigo_socio is None:
             print("El libro no existe o no está prestado.")
             return
 
-        # Desvincular socio
-        socio = next(
-            (
-                s
-                for s in socios
-                if str(s.codigo_libro_prestado) == str(libro.codigo)
-            ),
-            None,
-        )
+        # Guardamos el código del socio antes de quitarlo del libro
+        cod_socio_anterior = libro.codigo_socio
 
+        # 1. Liberamos el libro y actualizamos libros.txt
         libro.codigo_socio = None
-        if socio:
-            socio.codigo_libro_prestado = None
-
         self.libro_dao.actualizar_todos(libros)
-        self.socio_dao.actualizar_todos(socios)
+
+        # 2. Quitamos el libro del socio pasando None a SocioDAO
+        self.socio_dao.actualizar_prestamo(cod_socio_anterior, None)
+
         print(f"Libro '{libro.titulo}' devuelto correctamente.")
 
     def _opcion_6_mostrar_socios_con_prestamo(self):
@@ -208,7 +203,7 @@ class Main:
                     email=em,
                     codigo_libro_prestado=None,
                 )
-                self.socio_dao.crear(nuevo_s)
+                self.socio_dao.create(nuevo_s)
             else:
                 print("Opción no válida.")
         except ValueError:

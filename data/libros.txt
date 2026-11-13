@@ -1,101 +1,102 @@
 codigo|titulo|autor|anio|categoria|codigo_socio
-001|Don Quijote de la Mancha|Miguel de Cervantes|1605|Clásico|NONE
-002|Cien años de soledad|Gabriel García Márquez|1967|Realismo Mágico|NONE
-003|El principito|Antoine de Saint-Exupéry|1943|Fábula|001
-004|1984|George Orwell|1949|Distopía|NONE
-005|Orgullo y prejuicio|Jane Austen|1813|Novela Romántica|NONE
-006|El señor de los anillos|J.R.R. Tolkien|1954|Fantasía|NONE
-007|Fahrenheit 451|Ray Bradbury|1953|Distopía|NONE
-008|Crónica de una muerte anunciada|Gabriel García Márquez|1981|Novela|NONE
-009|La sombra del viento|Carlos Ruiz Zafón|2001|Misterio|NONE
-010|Rayuela|Julio Cortázar|1963|Ficción|NONE
-011|Un mundo feliz|Aldous Huxley|1932|Distopía|NONE
-012|El alquimista|Paulo Coelho|1988|Filosófica|002
-013|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
-014|Pedro Páramo|Juan Rulfo|1955|Realismo Mágico|NONE
-015|La casa de los espíritus|Isabel Allende|1982|Realismo Mágico|NONE
-016|Metamorfosis|Franz Kafka|1915|Ficción|NONE
-017|Crimen y castigo|Fyodor Dostoevsky|1866|Novela Psicológica|NONE
-018|Los miserables|Victor Hugo|1862|Novela Histórica|NONE
-019|El gran Gatsby|F. Scott Fitzgerald|1925|Ficción|NONE
-020|Matar a un ruiseñor|Harper Lee|1960|Ficción|NONE
-021|El nombre de la rosa|Umberto Eco|1980|Misterio Histórico|NONE
-022|Ensayo sobre la ceguera|José Saramago|1995|Ficción|NONE
-023|El retrato de Dorian Gray|Oscar Wilde|1890|Ficción Filosófica|NONE
-024|La odisea|Homero|-800|Épica|NONE
-025|La ilíada|Homero|-750|Épica|004
-026|La divina comedia|Dante Alighieri|1320|Poesía Épica|NONE
-027|Hamlet|William Shakespeare|1601|Drama|NONE
-028|Romeo y Julieta|William Shakespeare|1597|Drama|NONE
-029|Cumbres borrascosas|Emily Brontë|1847|Novela|NONE
-030|Jane Eyre|Charlotte Brontë|1847|Novela|NONE
-031|Moby Dick|Herman Melville|1851|Aventura|NONE
-032|Las aventuras de Huckleberry Finn|Mark Twain|1884|Aventura|NONE
-033|El guardián entre el centeno|J.D. Salinger|1951|Ficción|NONE
-034|El viejo y el mar|Ernest Hemingway|1952|Novela Short|NONE
-035|Por quién doblan las campanas|Ernest Hemingway|1940|Guerra|NONE
-036|En el camino|Jack Kerouac|1957|Ficción|NONE
-037|Drácula|Bram Stoker|1897|Terror|NONE
-038|Frankenstein|Mary Shelley|1818|Terror / Ciencia Ficción|NONE
-039|La metamorfosis|Franz Kafka|1915|Ficción|NONE
-040|El proceso|Franz Kafka|1925|Ficción|NONE
-041|Guerra y paz|Liev Tólstoi|1869|Novela Histórica|006
-042|Anna Karénina|Liev Tólstoi|1878|Novela Realista|NONE
-043|Los hermanos Karamazov|Fyodor Dostoevsky|1880|Novela Psicológica|NONE
-044|Madame Bovary|Gustave Flaubert|1857|Novela Realista|NONE
-045|El conde de Montecristo|Alexandre Dumas|1844|Aventura|NONE
-046|Los tres mosqueteros|Alexandre Dumas|1844|Aventura|NONE
-047|Veinte mil leguas de viaje submarino|Jules Verne|1870|Ciencia Ficción|NONE
-048|La isla del tesoro|Robert Louis Stevenson|1883|Aventura|NONE
-049|El extraño caso del Dr. Jekyll y Mr. Hyde|Robert Louis Stevenson|1886|Misterio|NONE
-050|Las aventuras de Sherlock Holmes|Arthur Conan Doyle|1892|Misterio|NONE
-051|El hobbit|J.R.R. Tolkien|1937|Fantasía|NONE
-052|Harry Potter y la piedra filosofal|J.K. Rowling|1997|Fantasía|NONE
-053|Juego de tronos|George R.R. Martin|1996|Fantasía Epic|NONE
-054|Dune|Frank Herbert|1965|Ciencia Ficción|NONE
-055|Fundación|Isaac Asimov|1951|Ciencia Ficción|008
-056|Yo, robot|Isaac Asimov|1950|Ciencia Ficción|NONE
-057|Neuromante|William Gibson|1984|Cyberpunk|NONE
-058|Crónicas marcianas|Ray Bradbury|1950|Ciencia Ficción|NONE
-059|La máquina del tiempo|H.G. Wells|1895|Ciencia Ficción|NONE
-060|La guerra de los mundos|H.G. Wells|1898|Ciencia Ficción|NONE
-061|El juego de Ender|Orson Scott Card|1985|Ciencia Ficción|NONE
-062|Sapiens|Yuval Noah Harari|2011|Divulgación Histórica|NONE
-063|El hombre en busca de sentido|Viktor Frankl|1946|Psicología|NONE
-064|El arte de la guerra|Sun Tzu|-500|Filosofía / Estrategia|NONE
-065|Así habló Zaratustra|Friedrich Nietzsche|1883|Filosofía|NONE
-066|El capital|Karl Marx|1867|Economía / Filosofía|NONE
-067|La república|Platón|-375|Filosofía|010
-068|Meditaciones|Marco Aurelio|180|Filosofía|NONE
-069|El laberinto de la soledad|Octavio Paz|1950|Ensayo|NONE
-070|Aura|Carlos Fuentes|1962|Ficción|NONE
-071|La ciudad y los perros|Mario Vargas Llosa|1963|Novela|NONE
-072|La fiesta del Chivo|Mario Vargas Llosa|2000|Novela Histórica|NONE
-073|Los detectives salvajes|Roberto Bolaño|1998|Novela|NONE
-074|2666|Roberto Bolaño|2004|Novela|NONE
-075|Como agua para chocolate|Laura Esquivel|1989|Realismo Mágico|NONE
-076|La tregua|Mario Benedetti|1960|Novela|NONE
-077|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
-078|El Aleph|Jorge Luis Borges|1949|Cuentos|012
-079|Niebla|Miguel de Unamuno|1914|Novela|NONE
-080|Campos de Castilla|Antonio Machado|1912|Poesía|NONE
-081|La colmena|Camilo José Cela|1951|Novela|NONE
-082|La familia de Pascual Duarte|Camilo José Cela|1942|Novela|NONE
-083|Nada|Carmen Laforet|1945|Novela|NONE
-084|Los santos inocentes|Miguel Delibes|1981|Novela|NONE
-085|El camino|Miguel Delibes|1950|Novela|NONE
-086|Patria|Fernando Aramburu|2016|Novela|NONE
-087|Siddhartha|Hermann Hesse|1922|Filosófica|NONE
-088|El lobo estepario|Hermann Hesse|1927|Novela|NONE
-089|El extranjero|Albert Camus|1942|Filosófica|014
-090|La peste|Albert Camus|1947|Novela|NONE
-091|Ensayo sobre la lucidez|José Saramago|2004|Ficción|NONE
-092|El túnel|Ernesto Sabato|1948|Novela Psicológica|NONE
-093|Sobre héroes y tumbas|Ernesto Sabato|1961|Novela|NONE
-094|Doña Bárbara|Rómulo Gallegos|1929|Novela|016
-095|María|Jorge Isaacs|1867|Romántica|NONE
-096|El perfume|Patrick Süskind|1985|Misterio / Histórica|NONE
-097|Cometas en el cielo|Khaled Hosseini|2003|Novela|NONE
-098|La ladrona de libros|Markus Zusak|2005|Novela Histórica|NONE
-099|La chica del tren|Paula Hawkins|2015|Thriller|NONE
+1|Don Quijote de la Mancha|Miguel de Cervantes|1605|Clásico|NONE
+2|Cien años de soledad|Gabriel García Márquez|1967|Realismo Mágico|NONE
+3|El principito|Antoine de Saint-Exupéry|1943|Fábula|1
+4|1984|George Orwell|1949|Distopía|NONE
+5|Orgullo y prejuicio|Jane Austen|1813|Novela Romántica|NONE
+6|El señor de los anillos|J.R.R. Tolkien|1954|Fantasía|NONE
+7|Fahrenheit 451|Ray Bradbury|1953|Distopía|NONE
+8|Crónica de una muerte anunciada|Gabriel García Márquez|1981|Novela|NONE
+9|La sombra del viento|Carlos Ruiz Zafón|2001|Misterio|NONE
+10|Rayuela|Julio Cortázar|1963|Ficción|NONE
+11|Un mundo feliz|Aldous Huxley|1932|Distopía|NONE
+12|El alquimista|Paulo Coelho|1988|Filosófica|2
+13|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
+14|Pedro Páramo|Juan Rulfo|1955|Realismo Mágico|NONE
+15|La casa de los espíritus|Isabel Allende|1982|Realismo Mágico|NONE
+16|Metamorfosis|Franz Kafka|1915|Ficción|NONE
+17|Crimen y castigo|Fyodor Dostoevsky|1866|Novela Psicológica|NONE
+18|Los miserables|Victor Hugo|1862|Novela Histórica|NONE
+19|El gran Gatsby|F. Scott Fitzgerald|1925|Ficción|NONE
+20|Matar a un ruiseñor|Harper Lee|1960|Ficción|NONE
+21|El nombre de la rosa|Umberto Eco|1980|Misterio Histórico|NONE
+22|Ensayo sobre la ceguera|José Saramago|1995|Ficción|NONE
+23|El retrato de Dorian Gray|Oscar Wilde|1890|Ficción Filosófica|NONE
+24|La odisea|Homero|-800|Épica|NONE
+25|La ilíada|Homero|-750|Épica|4
+26|La divina comedia|Dante Alighieri|1320|Poesía Épica|NONE
+27|Hamlet|William Shakespeare|1601|Drama|NONE
+28|Romeo y Julieta|William Shakespeare|1597|Drama|NONE
+29|Cumbres borrascosas|Emily Brontë|1847|Novela|NONE
+30|Jane Eyre|Charlotte Brontë|1847|Novela|NONE
+31|Moby Dick|Herman Melville|1851|Aventura|NONE
+32|Las aventuras de Huckleberry Finn|Mark Twain|1884|Aventura|NONE
+33|El guardián entre el centeno|J.D. Salinger|1951|Ficción|NONE
+34|El viejo y el mar|Ernest Hemingway|1952|Novela Short|NONE
+35|Por quién doblan las campanas|Ernest Hemingway|1940|Guerra|NONE
+36|En el camino|Jack Kerouac|1957|Ficción|NONE
+37|Drácula|Bram Stoker|1897|Terror|NONE
+38|Frankenstein|Mary Shelley|1818|Terror / Ciencia Ficción|NONE
+39|La metamorfosis|Franz Kafka|1915|Ficción|NONE
+40|El proceso|Franz Kafka|1925|Ficción|NONE
+41|Guerra y paz|Liev Tólstoi|1869|Novela Histórica|6
+42|Anna Karénina|Liev Tólstoi|1878|Novela Realista|NONE
+43|Los hermanos Karamazov|Fyodor Dostoevsky|1880|Novela Psicológica|NONE
+44|Madame Bovary|Gustave Flaubert|1857|Novela Realista|NONE
+45|El conde de Montecristo|Alexandre Dumas|1844|Aventura|NONE
+46|Los tres mosqueteros|Alexandre Dumas|1844|Aventura|NONE
+47|Veinte mil leguas de viaje submarino|Jules Verne|1870|Ciencia Ficción|NONE
+48|La isla del tesoro|Robert Louis Stevenson|1883|Aventura|NONE
+49|El extraño caso del Dr. Jekyll y Mr. Hyde|Robert Louis Stevenson|1886|Misterio|NONE
+50|Las aventuras de Sherlock Holmes|Arthur Conan Doyle|1892|Misterio|NONE
+51|El hobbit|J.R.R. Tolkien|1937|Fantasía|NONE
+52|Harry Potter y la piedra filosofal|J.K. Rowling|1997|Fantasía|NONE
+53|Juego de tronos|George R.R. Martin|1996|Fantasía Epic|NONE
+54|Dune|Frank Herbert|1965|Ciencia Ficción|NONE
+55|Fundación|Isaac Asimov|1951|Ciencia Ficción|8
+56|Yo, robot|Isaac Asimov|1950|Ciencia Ficción|NONE
+57|Neuromante|William Gibson|1984|Cyberpunk|NONE
+58|Crónicas marcianas|Ray Bradbury|1950|Ciencia Ficción|NONE
+59|La máquina del tiempo|H.G. Wells|1895|Ciencia Ficción|NONE
+60|La guerra de los mundos|H.G. Wells|1898|Ciencia Ficción|NONE
+61|El juego de Ender|Orson Scott Card|1985|Ciencia Ficción|NONE
+62|Sapiens|Yuval Noah Harari|2011|Divulgación Histórica|NONE
+63|El hombre en busca de sentido|Viktor Frankl|1946|Psicología|NONE
+64|El arte de la guerra|Sun Tzu|-500|Filosofía / Estrategia|NONE
+65|Así habló Zaratustra|Friedrich Nietzsche|1883|Filosofía|NONE
+66|El capital|Karl Marx|1867|Economía / Filosofía|NONE
+67|La república|Platón|-375|Filosofía|10
+68|Meditaciones|Marco Aurelio|180|Filosofía|NONE
+69|El laberinto de la soledad|Octavio Paz|1950|Ensayo|NONE
+70|Aura|Carlos Fuentes|1962|Ficción|NONE
+71|La ciudad y los perros|Mario Vargas Llosa|1963|Novela|NONE
+72|La fiesta del Chivo|Mario Vargas Llosa|2000|Novela Histórica|3
+73|Los detectives salvajes|Roberto Bolaño|1998|Novela|NONE
+74|2666|Roberto Bolaño|2004|Novela|NONE
+75|Como agua para chocolate|Laura Esquivel|1989|Realismo Mágico|NONE
+76|La tregua|Mario Benedetti|1960|Novela|NONE
+77|Ficciones|Jorge Luis Borges|1944|Cuentos|NONE
+78|El Aleph|Jorge Luis Borges|1949|Cuentos|12
+79|Niebla|Miguel de Unamuno|1914|Novela|NONE
+80|Campos de Castilla|Antonio Machado|1912|Poesía|NONE
+81|La colmena|Camilo José Cela|1951|Novela|NONE
+82|La familia de Pascual Duarte|Camilo José Cela|1942|Novela|NONE
+83|Nada|Carmen Laforet|1945|Novela|NONE
+84|Los santos inocentes|Miguel Delibes|1981|Novela|NONE
+85|El camino|Miguel Delibes|1950|Novela|NONE
+86|Patria|Fernando Aramburu|2016|Novela|NONE
+87|Siddhartha|Hermann Hesse|1922|Filosófica|NONE
+88|El lobo estepario|Hermann Hesse|1927|Novela|NONE
+89|El extranjero|Albert Camus|1942|Filosófica|14
+90|La peste|Albert Camus|1947|Novela|NONE
+91|Ensayo sobre la lucidez|José Saramago|2004|Ficción|NONE
+92|El túnel|Ernesto Sabato|1948|Novela Psicológica|12
+93|Sobre héroes y tumbas|Ernesto Sabato|1961|Novela|NONE
+94|Doña Bárbara|Rómulo Gallegos|1929|Novela|NONE
+95|María|Jorge Isaacs|1867|Romántica|NONE
+96|El perfume|Patrick Süskind|1985|Misterio / Histórica|NONE
+97|Cometas en el cielo|Khaled Hosseini|2003|Novela|NONE
+98|La ladrona de libros|Markus Zusak|2005|Novela Histórica|NONE
+99|La chica del tren|Paula Hawkins|2015|Thriller|NONE
 100|El código Da Vinci|Dan Brown|2003|Thriller / Misterio|NONE
+101|Fundamentación de arquitectura civil|Pedro Sanxe|2026|Educación|NONE
