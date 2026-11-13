@@ -19,3 +19,4 @@ codigo_socio|nombre|email|codigo_libro_prestado
 18|Álvaro Vázquez|alvaro.vazquez@example.com|NONE
 19|Paula Ramos|paula.ramos@example.com|NONE
 20|Diego Gil|diego.gil@example.com|NONE
+21|Kodi|kodi@email.com|NONE

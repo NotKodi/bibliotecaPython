@@ -99,26 +99,30 @@ class Main:
             print(libro)
 
     def _opcion_3_buscar_libro(self):
-        try:
-            codigo = int(input("Ingrese código del libro: "))
-        except ValueError:
-            print("El código debe ser numérico.")
+        termino = input("Ingrese el título o término a buscar: ").strip()
+        if not termino:
+            print("Debe introducir un término de búsqueda.")
             return
 
         libros = self.libro_dao.leer_todos()
-        encontrado = next((l for l in libros if l.codigo == codigo), None)
+        encontrados = [
+            l for l in libros if termino.lower() in l.titulo.lower()
+        ]
 
-        if encontrado:
+        if encontrados:
             self.log_manager.registrar(
                 "BUSCAR_LIBRO",
-                f"Libro encontrado: Cód {codigo} - '{encontrado.titulo}'",
+                f"Búsqueda por término '{termino}': {len(encontrados)} coincidencia(s)",
             )
-            print(f"Libro encontrado: {encontrado}")
+            print(f"\n== RESULTADOS PARA '{termino}' ==")
+            for libro in encontrados:
+                print(libro)
         else:
             self.log_manager.registrar(
-                "BUSCAR_LIBRO", f"Búsqueda sin resultados para código {codigo}"
+                "BUSCAR_LIBRO",
+                f"Búsqueda sin resultados para el término '{termino}'",
             )
-            print(f"No existe un libro con código {codigo}.")
+            print(f"No se encontraron libros que contengan '{termino}'.")
 
     def _opcion_4_prestar_libro(self):
         try:

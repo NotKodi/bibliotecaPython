@@ -100,3 +100,4 @@ codigo|titulo|autor|anio|categoria|codigo_socio
 99|La chica del tren|Paula Hawkins|2015|Thriller|NONE
 100|El código Da Vinci|Dan Brown|2003|Thriller / Misterio|NONE
 101|Fundamentación de arquitectura civil|Pedro Sanxe|2026|Educación|NONE
+102|Libro ejemplo|Kodi|2026|Historia|NONE
