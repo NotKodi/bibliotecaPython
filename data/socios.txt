@@ -1,0 +1,22 @@
+codigo_socio|nombre|email|codigo_libro_prestado
+1|María García|maria.garcia@example.com|3
+2|Juan Rodríguez|juan.rodriguez@example.com|12
+3|Carmen Martínez|carmen.martinez@example.com|72
+4|Alejandro López|alejandro.lopez@example.com|25
+5|Laura Sánchez|laura.sanchez@example.com|NONE
+6|Carlos Pérez|carlos.perez@example.com|41
+7|Ana Gómez|ana.gomez@example.com|NONE
+8|David Fernández|david.fernandez@example.com|55
+9|Isabel Díaz|isabel.diaz@example.com|NONE
+10|Javier Moreno|javier.moreno@example.com|67
+11|Marta Álvarez|marta.alvarez@example.com|NONE
+12|Daniel Romero|daniel.romero@example.com|78
+13|Lucía Alonso|lucia.alonso@example.com|NONE
+14|Pablo Gutiérrez|pablo.gutierrez@example.com|14
+15|Sofía Torres|sofia.torres@example.com|NONE
+16|Hugo Navarro|hugo.navarro@example.com|NONE
+17|Elena Domínguez|elena.dominguez@example.com|NONE
+18|Álvaro Vázquez|alvaro.vazquez@example.com|NONE
+19|Paula Ramos|paula.ramos@example.com|NONE
+20|Diego Gil|diego.gil@example.com|NONE
+21|Kodi|kodi@email.com|NONE
